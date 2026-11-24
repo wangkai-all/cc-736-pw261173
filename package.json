@@ -1,0 +1,16 @@
+{
+  "name": "repeat-sales-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive repeat-sales index workbench with rank, cluster and entity-break diagnostics.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "bench": "node scripts/bench.mjs",
+    "sample:batch": "node scripts/generate-samples.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
